@@ -1,0 +1,52 @@
+body{
+  background:#8e2800;
+  color: #ffb03b;
+  font-family: 'Arial', sans0-seriff;
+  font-size:14px;
+}
+/*# is for IDS*/
+#container{
+  width:60%;
+  background:#468966;
+  margin:20px auto;
+  overflow:auto;
+  padding:25px;
+
+}
+header{
+  text-align: center;
+  border-bottom: #ffb03b dashed 1px;
+}
+header h1{
+  margin:0;
+  padding: 0;
+}
+header p{
+  padding: 0;
+  margin-top: 5px;
+  color:#b64926;
+}
+section{
+  min-height: 400px;
+}
+footer{
+  text-align: center;
+}
+
+input[type='submit']{
+  background:#8e2800;
+  border:0;
+  color:#ffb03b;
+  padding: 10px, 15px;
+  cursor:pointer;
+}
+
+#results h3 {
+  background: :#8e2800;
+  padding: 10px;
+  margin: 10px, 0;
+}
+#results span{
+  color: #ffb03b;
+  font-weight: bold;
+}
